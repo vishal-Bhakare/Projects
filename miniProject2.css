@@ -9,14 +9,14 @@ body {
 
     width: 100%;
     height: 100%;
+
 }
 
 .main {
 
     width: 100%;
     height: 100%;
-    position: relative;
-
+   
 
 
 }
@@ -27,39 +27,53 @@ body {
 
 }
 
-.nav {
-   
+nav{
+    height: 10vh;
     width: 100%;
-    height: 10%;
+    background: #6F6AF7;
     display: flex;
-    padding: 5vh 5vh;
     justify-content: space-between;
     align-items: center;
-    background-color: blue;
-
+    padding: 4vh;
+    position: fixed;
+}
+nav h2{
+    font-family: Delius Unicase;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+nav ul{
+    text-transform: capitalize ;
+    list-style: none;
+    display: flex;
+    gap: 10vh;
+    font-size: 20px;
+    color: #ffffff;
+    align-items: center;
 
 }
-
-.navr{
-   
+.s-box{
+    color: #9f9f9f;
+    height: 5vh;
+    width: 314px;
+    background-color: #ffffff;
+    border-radius: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
 }
-
-.navr a {
-  
-    margin-right: 20vh;
-    color: white;
-   text-align: start;
-
+.s-box input{
+    font-size: 18px;
+    border: none;
+    padding: 1vh 2vh ;
+    background-color: transparent;
 }
-
-.navr input {
-
-
-    width: 80px;
-    height: 30px;
-
-
-
+.s-box button{
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
 }
 
 
@@ -71,6 +85,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    
 
 }
 
@@ -102,12 +117,11 @@ body {
     text-align: start;
 }
 
-.toprightR {
 
-    position: absolute;
-    top: 30vh;
-    right: 0;
 
+.toprightR img{
+   
+    top: 20px;
 
 }
 
@@ -184,9 +198,7 @@ body {
     left: 1506px;
     gap: 0px;
     opacity: 0px;
-    margin-bottom: 5vh;
-
-
+    margin-bottom: 5vh;   
 }
 
 .bottom {
