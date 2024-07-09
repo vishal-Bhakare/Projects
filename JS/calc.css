@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: #3B4664;
+
+}
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.row input {
+
+    width: 50vh;
+    height: 15vh;
+    font-size: larger;
+    text-align: center;
+    font-size: x-large;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid  #252D44;
+    border-radius: 20px;
+    color: white;
+    background: #181F32;
+
+   
+   
+
+}
+
+.calcContainer-top {
+
+    margin-top: 10vh;
+  
+
+}
+
+.calcContainer-bottom {
+
+    width: 50vh;
+    height: 50vh;
+    margin-top: 2vh;
+    border: 2px solid  #252D44;
+    border-radius: 20px;
+    background: #252D44;
+    font-size: x-large;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.row {
+
+    margin: 8px 0;
+    
+    
+}
+
+.btnInp {
+
+    width: 70px;
+    padding: 5px;
+    margin: 0 3px;
+    border: 2px solid  #252D44;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: larger;
+   
+}
+
+#Action1 {
+
+    width: 150px;
+    padding: 20px;
+    color: white;
+    background: #3B4664;
+
+}
+
+#Action2 {
+
+    width: 150px;
+    padding: 20px;
+    color: white;
+    background-color: brown;
+
+}
+
+#Action3{
+
+    color: white;
+    background: #3B4664;
+
+}
